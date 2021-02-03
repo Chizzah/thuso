@@ -1,5 +1,65 @@
-/* 576px and above */
+/* 576px and below */
 @media (max-width: 576px) {
+  .logo {
+    display: none;
+  }
+
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .logo_mobile {
+    margin-top: 8%;
+    margin-left: 8%;
+  }
+
+  .hamburger_menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 8%;
+    margin-right: 8%;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+
+  .main_nav_container_right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    background: #fff;
+    font-family: "AvenirNext-DemiBold";
+    font-size: 0.875rem;
+    display: none;
+    line-height: 50px;
+    box-shadow: 0.5px 0.5px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .main_nav_container_right.active {
+    display: block;
+    z-index: 1;
+  }
+
+  .main_nav_container_right ul {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+  }
+
+  .main_nav_container_right ul li a {
+    color: #141e2a;
+    text-transform: uppercase;
+  }
+
+  .main_nav_container_right ul li a:hover {
+    color: #a8774f;
+  }
 }
 
 /* 768px and above */
@@ -8,6 +68,17 @@
 
 /* 992px and above */
 @media (min-width: 992px) {
+  .logo_mobile {
+    display: none;
+  }
+
+  .hamburger_menu {
+    display: none;
+  }
+
+  .logo {
+    display: block;
+  }
 }
 
 /* 1200px and above */

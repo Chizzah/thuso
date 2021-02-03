@@ -1,0 +1,15 @@
+/* 576px and lower */
+@media (max-width: 576px) {
+  .scrolling_text {
+    margin-top: 54px;
+    font-size: 1.5rem;
+  }
+}
+
+/* 1400px and above */
+@media (min-width: 1400px) {
+  .scrolling_text {
+    margin-top: 180px;
+    font-size: 3.75rem;
+  }
+}

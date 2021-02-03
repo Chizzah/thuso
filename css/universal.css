@@ -110,32 +110,19 @@ ul {
 
 /* NORMAL DESKTOP */
 @media (min-width: 1200px) {
-  /* SCROLLING TEXT */
-
-  .scrolling_text {
-    padding-top: 180px !important;
-    font-size: 3.75rem;
-  }
 }
 
-.shape {
+/* .shape {
   background: blue;
   height: 100px;
   width: 100px;
   clip-path: polygon(0 26%, 100% 0%, 100% 100%, 0% 100%);
-}
+} */
 
 @media (min-width: 992px) {
   .wrapper {
     width: 100% !important;
     height: auto !important;
     padding-left: 7.5% !important;
-    /* background: yellow !important; */
-  }
-
-  .container {
-    height: 100vh;
-    /* background: purple !important; */
-    z-index: 100 !important;
   }
 }

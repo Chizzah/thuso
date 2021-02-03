@@ -1,15 +1,17 @@
-/* 576px and lower */
+/* 576px and below */
 @media (max-width: 576px) {
   .home_media_centre {
     width: 100%;
     height: auto;
+    margin-bottom: 64px;
     background: #f0f0f0;
     color: #141e2a;
   }
 
   .home_media_centre h2 {
-    margin-bottom: 40px;
     margin-left: 50px;
+    padding-top: 64px;
+    padding-bottom: 40px;
     font-family: "p22-underground";
     font-weight: 600;
     font-size: 1.75rem;
@@ -286,9 +288,13 @@
 
 /* 1400px and above */
 @media (min-width: 1400px) {
-  .home_media_centre {
+  .home_media_wrapper {
     margin-bottom: 134px;
     padding: 120px 0;
+    background: #f0f0f0;
+  }
+
+  .home_media_centre {
     color: #141e2a;
   }
 
@@ -323,6 +329,47 @@
 
   .home_media_centre_grid_featured {
     width: 100%;
+    background: #fff;
+  }
+
+  .home_media_centre_grid_featured img {
+    width: 100%;
+  }
+
+  .home_media_centre_grid_featured div {
+    padding-left: 40px;
+  }
+
+  .home_media_centre_grid_featured_title {
+    width: 540px;
+    margin-bottom: 24px;
+    font-family: "P22 Underground";
+    font-weight: 600;
+    font-size: 3.75rem;
+    line-height: 64px;
+  }
+
+  .home_media_centre_grid_featured_btn {
+    margin-bottom: 40px;
+    padding: 1rem 1.5rem;
+    font-family: "AvenirNext-DemiBold";
+    font-weight: 600;
+    font-size: 0.875rem;
+    letter-spacing: 1.2px;
+    line-height: 20px;
+    color: #a8774f;
+    background: transparent;
+    text-transform: uppercase;
+    border: 2px solid #a8774f;
+  }
+
+  .home_media_centre_grid_featured_btn:hover {
+    color: #fff;
+    background: #a8774f;
+  }
+
+  .home_media_centre_grid_featured_btn:focus {
+    outline: none;
   }
 
   .home_media_centre_grid {
@@ -349,6 +396,7 @@
   }
 
   .home_media_centre_grid_desc {
+    margin-bottom: 24px;
     font-size: 1rem;
     line-height: 28px;
   }
@@ -359,5 +407,6 @@
     letter-spacing: 1.2px;
     line-height: 19px;
     color: #b77432;
+    text-transform: uppercase;
   }
 }
