@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="800px" viewBox="0 0 400 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>461E96F0-6314-4E93-A108-65AD5536EC14@1x</title>
+    <defs>
+        <linearGradient x1="0%" y1="-97.9745358%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#E9DDD5" offset="0%"></stop>
+            <stop stop-color="#A8774F" offset="100%"></stop>
+        </linearGradient>
+        <path d="M400,601 L400,700.499447 L300.5,800 L201,800 L300.5,700.499447 L400,601 Z M400,400 L400,500 L300,600.001111 L200,700 L100,800 L0,800 L100,700 L200,600.001111 L300,500 L400,400 Z M300,400 L200.333333,499.99963 L100.666667,600.00037 L1,700 L1,600.00037 L100.666667,499.99963 L200.333333,400 L300,400 Z M100,400 L0.00111111111,500 L0,500 L0,400 L100,400 Z" id="path-2"></path>
+        <linearGradient x1="0%" y1="-97.9745358%" x2="100%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#E9DDD5" offset="0%"></stop>
+            <stop stop-color="#A8774F" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-4" points="0 399.999465 400 399.999465 0 -2.84217094e-14"></polygon>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Thuso-web-home-v2" transform="translate(-1080.000000, -3495.000000)">
+            <g id="partners" transform="translate(120.000000, 3495.000000)">
+                <g id="bg-partners" transform="translate(960.000000, 400.000000) scale(1, -1) translate(-960.000000, -400.000000) translate(560.000000, 0.000000)">
+                    <g id="Group-2" transform="translate(400.000000, -0.000000)">
+                        <g id="Combined-Shape">
+                            <use fill="#D2AA8D" xlink:href="#path-2"></use>
+                            <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                        </g>
+                        <g id="Fill-59-Copy-13" transform="translate(200.000000, 199.999733) scale(-1, -1) translate(-200.000000, -199.999733) ">
+                            <use fill="#D2AA8D" xlink:href="#path-4"></use>
+                            <use fill="url(#linearGradient-3)" xlink:href="#path-4"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

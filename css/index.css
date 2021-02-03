@@ -1,0 +1,59 @@
+/* MOBILE */
+.index {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.index h1 {
+  margin-top: 100px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.index_list {
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: 50px;
+  font: 1.5rem;
+  list-style: decimal;
+}
+
+.index_list li {
+  margin-bottom: 8px;
+}
+
+.index_list li a {
+  color: #000 !important;
+}
+
+.index_list li a:hover {
+  color: blue !important;
+  text-decoration: underline;
+}
+
+/* TABLET */
+@media (min-width: 768px) {
+}
+/* SMALL DESKTOP */
+@media (min-width: 992px) {
+}
+/* NORMAL DESKTOP */
+@media (min-width: 1200px) {
+  .index {
+    width: 1280px;
+    margin: 0 auto;
+  }
+
+  .index h1 {
+    font-size: 3rem;
+  }
+
+  .index_list {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font: 1.5rem;
+    list-style: decimal;
+  }
+}

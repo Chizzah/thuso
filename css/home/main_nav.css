@@ -1,0 +1,87 @@
+/* 576px and above */
+@media (max-width: 576px) {
+}
+
+/* 768px and above */
+@media (min-width: 768px) {
+}
+
+/* 992px and above */
+@media (min-width: 992px) {
+}
+
+/* 1200px and above */
+@media (min-width: 1200px) {
+}
+
+/* 1300px and above */
+@media (min-width: 1300px) {
+}
+
+/* 1400px and above */
+@media (min-width: 1400px) {
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .main_nav_wrapper {
+    width: 100%;
+    margin-top: 16px;
+  }
+
+  .main_nav_container {
+    width: 100%;
+    padding: 0 3.75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main_nav_container_left {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .main_nav_container_right {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .main_nav_container ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .main_nav_container_right ul li {
+    margin-left: 3%;
+    font-family: "AvenirNext-DemiBold";
+    font-size: 0.875rem;
+    letter-spacing: 1.5px;
+  }
+
+  .main_nav_container_right ul li:nth-child(6) {
+    margin-right: 0;
+  }
+
+  .main_nav_container ul li a:hover {
+    padding-bottom: 6px;
+    color: #d2aa8d;
+    border-bottom: 1px solid #d2aa8d;
+  }
+}
+
+/* 1800px and above */
+@media (min-width: 1800px) {
+}

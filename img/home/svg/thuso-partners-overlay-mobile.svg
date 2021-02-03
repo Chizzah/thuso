@@ -1,0 +1,24 @@
+<svg width="234" height="468" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient x1="168.658%" y1="-24.339%" x2="-19.667%" y2="83.119%" id="b">
+      <stop stop-color="#E9DDD5" offset="0%"/>
+      <stop stop-color="#A8774F" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="-53.956%" y1="-35.858%" x2="68.39%" y2="80.176%" id="d">
+      <stop stop-color="#E9DDD5" offset="0%"/>
+      <stop stop-color="#A8774F" offset="100%"/>
+    </linearGradient>
+    <path d="M234 351.585v58.207L175.792 468h-58.207L234 351.585zM234 234v58.5L58.5 468H0l234-234zm-58.5 0l-58.305 58.5L58.89 351 .585 409.5V351l58.305-58.5 58.305-58.5H175.5zm-117 0L0 292.5V234h58.5z" id="a"/>
+    <path id="c" d="M0 234h234L0 0z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="matrix(1 0 0 -1 0 468)">
+      <use fill="#D2AA8D" xlink:href="#a"/>
+      <use fill="url(#b)" xlink:href="#a"/>
+    </g>
+    <g transform="matrix(-1 0 0 1 234 234)">
+      <use fill="#D2AA8D" xlink:href="#c"/>
+      <use fill="url(#d)" xlink:href="#c"/>
+    </g>
+  </g>
+</svg>

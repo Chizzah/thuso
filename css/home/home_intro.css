@@ -1,0 +1,117 @@
+/* 576px and below */
+@media (max-width: 576px) {
+  .home_intro {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    color: #141e2a;
+  }
+
+  .home_intro_grid {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .home_intro_grid p {
+    margin-bottom: 16px;
+  }
+
+  .home_intro div {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .home_intro div button {
+    margin-top: 16px;
+    padding: 0.75rem 1.5rem;
+    font-family: AvenirNext-DemiBold;
+    font-size: 0.75rem;
+    background: #fff;
+    color: #a8774f;
+    text-transform: uppercase;
+    border: 2px solid #a8774f;
+    cursor: pointer;
+  }
+
+  .home_intro div button:hover {
+    background: #a8774f;
+    color: #fff;
+    border: 2px solid #a8774f;
+  }
+}
+
+/* 768px and above */
+@media (min-width: 768px) {
+}
+
+/* 992px and above */
+@media (min-width: 992px) {
+}
+
+/* 1200px and above */
+@media (min-width: 1200px) {
+}
+
+/* 1400px and above */
+@media (min-width: 1400px) {
+  .home_intro {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    padding-top: 66px;
+    padding-bottom: 180px;
+    color: #141e2a;
+  }
+
+  .home_intro div {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-left: 220px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .home_intro p {
+    margin: 0;
+    padding: 0;
+    max-width: 400px;
+    margin-bottom: 16px;
+    font-size: 1.25rem;
+    line-height: 28px;
+  }
+
+  .home_intro p:nth-child(2) {
+    margin-left: 120px;
+  }
+
+  .home_intro div button {
+    margin: 0;
+    padding: 0;
+    margin-top: 16px;
+    width: 193px;
+    height: 50px;
+    font-family: AvenirNext-DemiBold;
+    font-size: 0.875rem;
+    letter-spacing: 2px;
+    line-height: 19px;
+    background: #fff;
+    color: #a8774f;
+    text-transform: uppercase;
+    border: 2px solid #a8774f;
+    cursor: pointer;
+  }
+
+  .home_intro div button:hover {
+    background: #a8774f;
+    color: #fff;
+    border: 2px solid #a8774f;
+  }
+}
+
+/* 1800px and above */
+@media (min-width: 1800px) {
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="240px" viewBox="0 0 120 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>F540E2D5-9EF3-4211-8FA6-313BE6D4230F@1x</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="-108.075141%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#141E2A" offset="0%"></stop>
+            <stop stop-color="#3D5D71" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Thuso-mobile-hp" transform="translate(-195.000000, 0.000000)" fill="url(#linearGradient-1)">
+            <g id="header">
+                <path d="M195,119.999642 C195.000034,186.162636 248.69495,239.81934 315,240 L375,240 L375,0 L315,1.70530257e-14 C248.69493,0.179818662 195,53.8365558 195,119.999579 L195,0 L375,0 L375,240 L195,240 L195,119.999642 Z" id="thuso-hp-header-pattern-mobile"></path>
+            </g>
+        </g>
+    </g>
+</svg>
