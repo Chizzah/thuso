@@ -1,5 +1,5 @@
-/* 576px and below */
-@media (max-width: 576px) {
+/* 768px and below */
+@media (max-width: 768px) {
   .home_intro {
     width: 100%;
     height: auto;
@@ -8,12 +8,7 @@
     color: #141e2a;
   }
 
-  .home_intro_grid {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .home_intro_grid p {
+  .home_intro p {
     margin-bottom: 16px;
   }
 
@@ -41,20 +36,8 @@
   }
 }
 
-/* 768px and above */
-@media (min-width: 768px) {
-}
-
 /* 992px and above */
 @media (min-width: 992px) {
-}
-
-/* 1200px and above */
-@media (min-width: 1200px) {
-}
-
-/* 1400px and above */
-@media (min-width: 1400px) {
   .home_intro {
     margin: 0;
     padding: 0;
@@ -69,7 +52,6 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    padding-left: 220px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -85,17 +67,16 @@
   }
 
   .home_intro p:nth-child(2) {
-    margin-left: 120px;
+    margin-left: 7.5%;
   }
 
   .home_intro div button {
     margin: 0;
     padding: 0;
     margin-top: 16px;
-    width: 193px;
-    height: 50px;
+    padding: 1% 1.6875%;
     font-family: AvenirNext-DemiBold;
-    font-size: 0.875rem;
+    font-size: 0.625rem;
     letter-spacing: 2px;
     line-height: 19px;
     background: #fff;
@@ -112,6 +93,33 @@
   }
 }
 
+/* 1200px and above */
+@media (min-width: 1200px) {
+  .home_intro div {
+    padding-left: 13.75%;
+  }
+
+  .home_intro div button {
+    font-size: 0.75rem;
+  }
+}
+
+/* 1400px and above */
+@media (min-width: 1400px) {
+  .home_intro div button {
+    font-size: 0.875rem;
+  }
+}
+
 /* 1800px and above */
 @media (min-width: 1800px) {
+  .home_intro p {
+    max-width: 500px;
+    font-size: 1.5rem;
+  }
+
+  .home_intro div button {
+    padding: 1.25% 2%;
+    font-size: 1rem;
+  }
 }

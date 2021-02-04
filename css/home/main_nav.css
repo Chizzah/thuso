@@ -1,4 +1,4 @@
-/* 576px and below */
+/* 576px and above */
 @media (max-width: 576px) {
   .logo {
     display: none;
@@ -13,7 +13,7 @@
   }
 
   .logo_mobile {
-    margin-top: 8%;
+    margin-top: 4%;
     margin-left: 8%;
   }
 
@@ -21,7 +21,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    margin-top: 8%;
+    margin-top: 4%;
     margin-right: 8%;
     background: transparent;
     border: none;
@@ -63,7 +63,67 @@
 }
 
 /* 768px and above */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .logo_mobile {
+    margin-top: 4%;
+    margin-left: 8%;
+  }
+
+  .hamburger_menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 4%;
+    margin-right: 8%;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+
+  .main_nav_container_right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    background: #fff;
+    font-family: "AvenirNext-DemiBold";
+    font-size: 0.875rem;
+    display: none;
+    line-height: 50px;
+    box-shadow: 0.5px 0.5px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .main_nav_container_right.active {
+    display: block;
+    z-index: 1;
+  }
+
+  .main_nav_container_right ul {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 60px;
+  }
+
+  .main_nav_container_right ul li a {
+    color: #141e2a;
+    text-transform: uppercase;
+  }
+
+  .main_nav_container_right ul li a:hover {
+    color: #a8774f;
+  }
 }
 
 /* 992px and above */
@@ -79,18 +139,7 @@
   .logo {
     display: block;
   }
-}
 
-/* 1200px and above */
-@media (min-width: 1200px) {
-}
-
-/* 1300px and above */
-@media (min-width: 1300px) {
-}
-
-/* 1400px and above */
-@media (min-width: 1400px) {
   header {
     position: absolute;
     top: 0;
@@ -113,17 +162,23 @@
   }
 
   .main_nav_container_left {
-    width: 40%;
+    width: 30%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
   }
 
   .main_nav_container_right {
-    width: 60%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    width: 70%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    background: transparent;
+    box-shadow: none;
   }
 
   .main_nav_container ul {
@@ -138,8 +193,12 @@
   .main_nav_container_right ul li {
     margin-left: 3%;
     font-family: "AvenirNext-DemiBold";
-    font-size: 0.875rem;
+    font-size: 0.5rem;
     letter-spacing: 1.5px;
+  }
+
+  .main_nav_container_right ul li a {
+    color: #fff;
   }
 
   .main_nav_container_right ul li:nth-child(6) {
@@ -153,6 +212,43 @@
   }
 }
 
+/* 1200px and above */
+@media (min-width: 1200px) {
+  .main_nav_container_right ul li {
+    font-size: 0.75rem;
+  }
+}
+
+/* 1300px and above */
+/* @media (min-width: 1300px) {
+} */
+
+/* 1400px and above */
+@media (min-width: 1400px) {
+  .main_nav_container_left {
+    width: 40%;
+  }
+
+  .main_nav_container_right {
+    width: 60%;
+  }
+
+  .main_nav_container_right ul li {
+    font-size: 0.875rem;
+  }
+}
+
 /* 1800px and above */
 @media (min-width: 1800px) {
+  .main_nav_container_left {
+    width: 30%;
+  }
+
+  .main_nav_container_right {
+    width: 70%;
+  }
+
+  .main_nav_container_right ul li {
+    font-size: 1.125rem;
+  }
 }
