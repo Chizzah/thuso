@@ -1,12 +1,15 @@
 /* 576px and below */
 @media (max-width: 576px) {
   .home_hero_img,
-  .home_hero_overlay {
+  .home_hero_overlay,
+  .home_hero_btn {
     display: none;
   }
 
   .home_hero_wrapper {
     position: relative;
+    width: 100%;
+    height: 240px;
   }
 
   .home_hero_mobile_img {
@@ -42,9 +45,14 @@
     line-height: 28px;
   }
 
-  .home_hero_btn {
+  .home_hero_mobile_btn_container {
+    position: relative;
+    width: 100%;
+  }
+
+  .home_hero_mobile_btn {
     position: absolute;
-    bottom: -50px;
+    top: 0;
     left: 0;
     margin-left: 8%;
     padding: 5.3%;
@@ -109,7 +117,9 @@
 /* 768px and above */
 @media (min-width: 768px) {
   .home_hero_mobile_img,
-  .home_hero_mobile_overlay {
+  .home_hero_mobile_overlay,
+  .home_hero_mobile_btn,
+  .home_hero_mobile_btn_container {
     display: none;
   }
 
