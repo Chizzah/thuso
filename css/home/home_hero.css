@@ -306,6 +306,7 @@
   .home_hero_btn {
     padding: 2.25rem 2.875rem;
     font-size: 1rem;
+    display: inline-block;
   }
 }
 

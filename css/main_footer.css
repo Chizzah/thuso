@@ -123,6 +123,21 @@
     width: 100%;
   }
 
+  .footer_center_right svg {
+    fill: #fff;
+    background-color: gray;
+    cursor: pointer;
+  }
+
+  .footer_center_right svg:nth-child(2) {
+    margin-left: 15px;
+  }
+
+  .footer_center_right svg:hover {
+    fill: #d2aa8d;
+    background-color: transparent;
+  }
+
   .footer_center_right p {
     margin-bottom: 16px;
     font-family: AvenirNext-DemiBold;
@@ -314,6 +329,21 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+  }
+
+  .footer_center_right svg {
+    fill: #fff;
+    background-color: gray;
+    cursor: pointer;
+  }
+
+  .footer_center_right svg:nth-child(2) {
+    margin-left: 15px;
+  }
+
+  .footer_center_right svg:hover {
+    fill: #d2aa8d;
+    background-color: transparent;
   }
 
   .footer_center_right p {

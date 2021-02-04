@@ -123,6 +123,14 @@ ul {
   .wrapper {
     width: 100% !important;
     height: auto !important;
+    padding-left: 5% !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrapper {
+    width: 100% !important;
+    height: auto !important;
     padding-left: 7.5% !important;
   }
 }
